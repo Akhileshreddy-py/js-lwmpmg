@@ -28,9 +28,20 @@ height:35px;
 position:relative;
 top:115px;
 left:332px;
+animation-name: ak;
+-o-ni-mation-duration: 2s-;
 }
 
-
+@keyframes ak
+{
+  from
+  {
+  left:332px; 
+  }
+  top{
+    left:0px;
+  }
+}
 
 
 
