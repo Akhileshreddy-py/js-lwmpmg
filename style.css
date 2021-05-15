@@ -18,7 +18,9 @@ overflow:hidden;
 width:20px;
 position:relative;
 top:150px;
-
+animation-name: jump;
+animation-duration: 0.5s;
+animation-iteration-count: infinite;
 }
 .enemy
 {
@@ -29,7 +31,7 @@ position:relative;
 top:115px;
 left:332px;
 animation-name: ak;
-animation-duration: 1s;
+animation-duration: 0.5s;
 animation-iteration-count: infinite;
 }
 
@@ -44,7 +46,16 @@ animation-iteration-count: infinite;
     left:-50px;
   }
 }
-
+@keyframes jump
+{
+  from{
+    top:150px;
+  }
+  to
+  {
+top:110px;
+  }
+}
 
 
 
