@@ -5,15 +5,16 @@
 }
 .game
 {
+  display:absolue;
   border:2px solid green;
   width:400px;
   height:200px;
-margin:100px;
+margin:20px;
 }
 .dino
 {
-  position: relative;
-  top:170px;
+  position: absolute;
+  top:193px;
   width:15px;
   background-color:blue;
   height:30px;
@@ -22,5 +23,8 @@ margin:100px;
 .enemy
 {
   background-color: red;
-  width:400px;
+  width:14px;
+  height:25px;
+  position:absolute;
+  top:20x;
 }
