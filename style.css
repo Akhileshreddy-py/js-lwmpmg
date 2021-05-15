@@ -29,7 +29,9 @@ position:relative;
 top:115px;
 left:332px;
 animation-name: ak;
--o-ni-mation-duration: 2s-;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+
 }
 
 @keyframes ak
@@ -38,7 +40,7 @@ animation-name: ak;
   {
   left:332px; 
   }
-  top{
+  to{
     left:0px;
   }
 }
