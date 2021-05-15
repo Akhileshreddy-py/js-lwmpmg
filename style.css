@@ -8,6 +8,7 @@
   border:2px solid green;
   width:400px;
   height:200px;
+margin:100px;
 }
 .dino
 {
@@ -17,4 +18,9 @@
   background-color:blue;
   height:30px;
 
+}
+.enemy
+{
+  background-color: red;
+  width:400px;
 }
