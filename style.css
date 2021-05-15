@@ -9,9 +9,9 @@
   width:350px;
   height:200px;
 margin:20px;
+overflow:hidden;
 }
-.dino
-{
+.dino{
 
   background-color:blue;
   height:50px;
@@ -31,8 +31,8 @@ left:332px;
 animation-name: ak;
 animation-duration: 1s;
 animation-iteration-count: infinite;
-
 }
+
 
 @keyframes ak
 {
@@ -41,7 +41,7 @@ animation-iteration-count: infinite;
   left:332px; 
   }
   to{
-    left:0px;
+    left:-50px;
   }
 }
 
